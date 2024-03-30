@@ -52,8 +52,8 @@
                                                     </label>
                                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="NYE-Kt-MnM">
                                                         <rect key="frame" x="100" y="0.0" width="300" height="31"/>
-                                                        <color key="minimumTrackTintColor" systemColor="secondaryLabelColor"/>
-                                                        <color key="maximumTrackTintColor" systemColor="systemRedColor"/>
+                                                        <color key="minimumTrackTintColor" systemColor="systemPinkColor"/>
+                                                        <color key="maximumTrackTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <connections>
                                                             <action selector="redColorSlider" destination="BYZ-38-t0r" eventType="valueChanged" id="rh0-1s-zNM"/>
                                                         </connections>
@@ -83,8 +83,8 @@
                                                     </label>
                                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="JPt-Ra-2jx">
                                                         <rect key="frame" x="100" y="0.0" width="300" height="31"/>
-                                                        <color key="minimumTrackTintColor" systemColor="secondaryLabelColor"/>
-                                                        <color key="maximumTrackTintColor" systemColor="systemGreenColor"/>
+                                                        <color key="minimumTrackTintColor" systemColor="systemGreenColor"/>
+                                                        <color key="maximumTrackTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <connections>
                                                             <action selector="greenColorSlider" destination="BYZ-38-t0r" eventType="valueChanged" id="8pP-yU-6vm"/>
                                                         </connections>
@@ -114,8 +114,8 @@
                                                     </label>
                                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Lm7-E9-lJn">
                                                         <rect key="frame" x="98" y="0.0" width="302" height="31"/>
-                                                        <color key="minimumTrackTintColor" systemColor="secondaryLabelColor"/>
-                                                        <color key="maximumTrackTintColor" red="0.028273733332753181" green="0.11106208711862564" blue="0.95879131555557251" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="minimumTrackTintColor" red="0.026605755090713501" green="0.15037477016448975" blue="0.96015363931655884" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="maximumTrackTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <connections>
                                                             <action selector="blueColorSlider" destination="BYZ-38-t0r" eventType="valueChanged" id="Don-3F-z2G"/>
                                                         </connections>
@@ -154,17 +154,14 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="secondaryLabelColor">
-            <color red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
