@@ -8,9 +8,9 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    @IBOutlet var colorizedView: UIView!
     
+    // MARK: - IB Outlets
+    @IBOutlet var colorizedView: UIView!
     
     @IBOutlet var redLabelValue: UILabel!
     @IBOutlet var greenLabelValue: UILabel!
@@ -20,19 +20,19 @@ class ViewController: UIViewController {
     @IBOutlet var greenSlider: UISlider!
     @IBOutlet var blueSlider: UISlider!
     
-    
-    
-    
+    // MARK: - View Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         colorizedView.layer.cornerRadius = 10
       
     }
     
+    // MARK: - Private Methods
     private func changColor(_ color: inout UIView) {
         color.backgroundColor = UIColor(red: CGFloat(redSlider.value), green: CGFloat(greenSlider.value), blue: CGFloat(blueSlider.value), alpha: 1)
     }
     
+    // MARK: - IB Actions
     @IBAction func redColorSlider() {
         redLabelValue.text = String(format: "%.2f", redSlider.value)
         changColor(&colorizedView)
